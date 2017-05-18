@@ -1,0 +1,67 @@
+<nav id="nav-div" class="custom-container navbar navbar-toggleable-sm navbar-light text-white pb-0 pt-2">
+
+    <div class="d-flex hidden-lg-up m-0 p-0">
+        <a class="navbar-brand" href="/">
+            <svg class="icon icon-small" alt="Greendrive">
+                <use xlink:href="#icon-logo-hat"></use>
+            </svg>
+        </a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class="collapse navbar-collapse ml-auto" id="navbarText">
+
+        <div class="mr-auto" style="width:50px;"></div>
+
+        <a class="navbar-brand hidden-md-down m-0 p-0" href="#">
+
+            <div class="my-auto" style="height:60px;">
+                <svg class="icon icon-small"
+                     alt="Greendrive">
+                    <use xlink:href="#icon-logo"></use>
+                </svg>
+            </div>
+        </a>
+        <ul class="navbar-nav ml-auto my-auto">
+            <li class="nav-item">
+
+                <a id="nav-create"
+                   class="nav-link pt-3 pt-md-2 pb-2"
+                   href="#"
+                   style="display:{{logout}};"
+                   data-toggle="modal"
+                   data-target="#modal-transport">
+                    Skapa tur
+                </a>
+            </li>
+
+            <li class="nav-item">
+
+                <a id="nav-about"
+                   class="nav-link  py-2"
+                   href="#"
+                   style="display:{{logout}};"
+                   data-toggle="modal"
+                   data-target="#modal-about">
+                    Om
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a id="nav-logout"
+                   class="nav-link logout py-2"
+                   href="#"
+                   style="display:{{logout}};">
+                    Logga ut
+                </a>
+
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
